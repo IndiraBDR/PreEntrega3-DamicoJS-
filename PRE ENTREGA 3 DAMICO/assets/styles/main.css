@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap");
+/*MAP*/
+/* PAGINA DE INDEX-INICIO*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #ffc6c7 0%, #faeee7 60%, #ffc6c7 100%);
+}
+
+#contenedor {
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "cabecera" "tinicio" "heroinicio" "carroinicio" "video" "forminicio" "logotipo" "pie";
+}
+
+#cabecera {
+  grid-area: cabecera;
+}
+#cabecera .form-control {
+  border: 2px solid #ff8ba7;
+}
+#cabecera .btn {
+  border: 2px solid #ff8ba7;
+}
+
+#titulo__inicio {
+  grid-area: tinicio;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#titulo__inicio h1 {
+  color: #ea4c89;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+@media only screen and (min-width: 1280px) {
+  #titulo__inicio h1 {
+    font-size: 50px;
+  }
+}
+
+#video {
+  grid-area: video;
+  text-align: center;
+  padding-top: 30px;
+}
+#video h2 {
+  color: #ea4c89;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  font-size: 19px;
+}
+@media only screen and (min-width: 1280px) {
+  #video h2 {
+    font-size: 32px;
+  }
+}
+
+#logotipo__marca {
+  grid-area: logotipo;
+  text-align: center;
+}
+#logotipo__marca img {
+  width: 120px;
+}
+@media only screen and (min-width: 1280px) {
+  #logotipo__marca img {
+    width: 320px;
+  }
+}
+
+/* PAGINA DE VISION*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: linear-gradient(to right, #ffc6c7 0%, #faeee7 60%, #ffc6c7 100%);
+}
+
+#contenedor__vision {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "cabevision" "tvision" "herovision" "pie";
+}
+
+#cabecera__vision {
+  grid-area: cabevision;
+}
+#cabecera__vision .form-control {
+  border: 2px solid #ff8ba7;
+}
+#cabecera__vision .btn {
+  border: 2px solid #ff8ba7;
+}
+
+#titulo__vision {
+  grid-area: tvision;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#titulo__vision h1 {
+  color: #ea4c89;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+@media only screen and (min-width: 1280px) {
+  #titulo__vision h1 {
+    font-size: 50px;
+  }
+}
+
+/* PAGINA DE MISION*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: linear-gradient(to right, #ffc6c7 0%, #faeee7 60%, #ffc6c7 100%);
+}
+
+#contenedor__mision {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "cabemision" "tmision" "heromision" "pie";
+}
+
+#cabecera__mision {
+  grid-area: cabemision;
+}
+#cabecera__mision .form-control {
+  border: 2px solid #ff8ba7;
+}
+#cabecera__mision .btn {
+  border: 2px solid #ff8ba7;
+}
+
+#titulo__mision {
+  grid-area: tmision;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#titulo__mision h1 {
+  color: #ea4c89;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+@media only screen and (min-width: 1280px) {
+  #titulo__mision h1 {
+    font-size: 50px;
+  }
+}
+
+/* PAGINA DE TE AYUDO*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: linear-gradient(to right, #ffc6c7 0%, #faeee7 60%, #ffc6c7 100%);
+}
+
+.contenedor__teayudo {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "cabeteayudo" "tteayudo" "contenservicios" "opcionesdefiltrado" "filtrados" "carroteayudo" "formteayudo" "pie";
+}
+
+.cabecera__teayudo {
+  grid-area: cabeteayudo;
+}
+.cabecera__teayudo .form-control {
+  border: 2px solid #ff8ba7;
+}
+.cabecera__teayudo .btn {
+  border: 2px solid #ff8ba7;
+}
+
+.titulo__teayudo {
+  grid-area: tteayudo;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.titulo__teayudo h1 {
+  color: #ea4c89;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+@media only screen and (min-width: 1280px) {
+  .titulo__teayudo h1 {
+    font-size: 50px;
+  }
+}
+
+/* PAGINA DE CONTACTO*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#contenedor__contacto {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "cabecontacto" "tcontacto" "formcontacto" "infointeres" "pie";
+}
+
+#Cabecera__contacto {
+  grid-area: cabecontacto;
+}
+#Cabecera__contacto .form-control {
+  border: 2px solid #ff8ba7;
+}
+#Cabecera__contacto .btn {
+  border: 2px solid #ff8ba7;
+}
+
+#titulo__contacto {
+  grid-column: tcontacto;
+  text-align: center;
+}
+#titulo__contacto h1 {
+  color: #ea4c89;
+  font-size: 22px;
+  padding-top: 20px;
+}
+@media only screen and (min-width: 1280px) {
+  #titulo__contacto h1 {
+    font-size: 50px;
+  }
+}
+
+/* CONTENIDO CENTRAL DE LA PAGINA TE AYUDO*/
+.contenedor__servicios {
+  grid-area: contenservicios;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+.contenedor__servicios .servicio {
+  background-color: #ffc6c7;
+  border-radius: 10px;
+  text-align: center;
+  width: 333.3333333333px;
+  height: 400px;
+  margin-top: 50px;
+  color: #594a4e;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border: 8px double #594a4e;
+  font-size: small;
+}
+.contenedor__servicios .servicio h1 {
+  font-size: large;
+}
+.contenedor__servicios .servicio p {
+  color: #594a4e;
+  opacity: 1;
+}
+.contenedor__servicios .servicio img {
+  width: 90%;
+  height: 80px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+@media only screen and (min-width: 1280px) {
+  .contenedor__servicios {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    padding-top: 20px;
+    /* 
+    .servicio:nth-child(2) {
+
+         height: calc(e.$alto-box + 50px);
+
+
+    }
+    */
+  }
+  .contenedor__servicios .servicio {
+    border-radius: 0px;
+    text-align: center;
+    width: 333.3333333333px;
+    height: 520px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contenedor__servicios .servicio img {
+    width: 90%;
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+.Boton-agregar {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #594a4e;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.OpcionesFiltrado {
+  grid-area: opcionesdefiltrado;
+  background-color: #ffc6c7;
+  color: #594a4e;
+  border-radius: 10px;
+  width: 400px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 40px;
+}
+.OpcionesFiltrado button {
+  width: 100px;
+}
+
+.filtrados {
+  width: 200px;
+  height: 200px;
+  font-size: small;
+  margin: auto;
+}
+
+.carrousel__teayudo {
+  grid-area: carroteayudo;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 70px;
+}
+@media only screen and (min-width: 1280px) {
+  .carrousel__teayudo {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/*FORMULARIOS DEL SITIO*/
+/*FORMULARIO DEL  LA PAG  DE INICIO*/
+#form__inicio {
+  grid-area: forminicio;
+  text-align: center;
+  padding-top: 20px;
+}
+#form__inicio input {
+  background-color: #ea4c89;
+  width: 80px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  animation: saltarin 2s infinite;
+  margin: 0px auto;
+  border-radius: 10px;
+  border-color: #ea4c89;
+}
+@keyframes saltarin {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+#form__inicio textarea {
+  text-align: center;
+  border-radius: 8px;
+  color: lightgray;
+  border: 2px solid #ea4c89;
+  opacity: 0.7;
+}
+#form__inicio .tex-form-inicio {
+  color: #ea4c89;
+  font-size: 17px;
+}
+@media only screen and (min-width: 1280px) {
+  #form__inicio .tex-form-inicio {
+    font-size: 22px;
+  }
+}
+
+/*FORMULARIO DEL  LA PAG  DE TE AYUDO*/
+#form__teayudo {
+  grid-area: formteayudo;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+#form__teayudo label {
+  color: #594a4e;
+  font-weight: 500;
+}
+#form__teayudo select {
+  background-color: #ff8ba7;
+  border-radius: 8px;
+}
+@media only screen and (min-width: 1280px) {
+  #form__teayudo {
+    grid-area: formteayudo;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+}
+
+/*FORMULARIO DEL  LA PAG  DE CONTACTO*/
+#form__contacto {
+  grid-area: formcontacto;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#form__contacto label {
+  color: #4fc4cf;
+  opacity: 0.8;
+  font-weight: bold;
+}
+#form__contacto .form__contacto__1 {
+  width: 80%;
+  margin-left: 45px;
+}
+@media only screen and (min-width: 1280px) {
+  #form__contacto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #form__contacto .form__contacto__1 {
+    width: 50%;
+  }
+  #form__contacto .form__contacto__2 {
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 250px;
+  }
+}
+
+.pie {
+  grid-area: pie;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  background-color: #ff8ba7;
+}
+.pie .icon-facebook2 {
+  text-decoration: none;
+}
+.pie .icon-facebook2:before {
+  content: "\ea91";
+  color: #faeee7;
+}
+.pie .icon-instagram {
+  text-decoration: none;
+}
+.pie .icon-instagram::before {
+  content: "\ea92";
+  color: #faeee7;
+}
+
+.formRegistro {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc6c7;
+  color: #594a4e;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding: 50px;
+  width: 400px;
+  height: 400px;
+}
+.formRegistro input {
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.formRegistro h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */

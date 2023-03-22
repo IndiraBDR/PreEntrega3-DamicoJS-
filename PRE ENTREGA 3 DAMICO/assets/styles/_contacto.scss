@@ -1,0 +1,82 @@
+@use '_commons' as e;
+
+/* PAGINA DE CONTACTO*/
+
+
+* {
+    margin: e.$margin-general;
+    padding:e.$padding-general;
+
+}
+
+
+#contenedor__contacto {
+
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+
+        "cabecontacto"
+        "tcontacto"
+        "formcontacto"
+        "infointeres"
+        "pie"
+    ;
+
+
+}
+
+#Cabecera__contacto {
+    
+    grid-area: cabecontacto;
+    
+    .form-control{
+
+        border:2px solid map-get(e.$colores,"separador");
+     
+    }
+    
+    .btn{
+    
+        border:2px solid map-get(e.$colores,"separador");
+    
+    }
+
+}
+
+#titulo__contacto {
+    grid-column: tcontacto;
+    text-align: center;
+    
+
+    h1{
+        color:map-get(e.$colores,"titulo-pricipal");
+        font-size: e.$size-titulo-principal-mobile;
+        padding-top: e.$padding-top-titulo-principal;
+
+        @media only screen and (min-width:1280px) {
+        
+                font-size: e.$size-titulo-principal;
+        
+    
+        }
+       
+    }
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

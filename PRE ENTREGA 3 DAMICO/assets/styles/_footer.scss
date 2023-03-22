@@ -1,0 +1,35 @@
+@use '_commons' as e;
+
+
+.pie {
+
+    grid-area: pie;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    background-color:map-get(e.$colores,"separador");
+
+
+    .icon-facebook2 {
+        text-decoration: none;
+    
+        &:before{
+            content: "\ea91";
+            color:map-get(e.$colores,"pie");
+        }
+    }
+    
+    .icon-instagram {
+        text-decoration: none;
+    
+        &::before{
+            content: "\ea92";
+            color:map-get(e.$colores,"pie");
+        
+    
+    
+        }
+    }
+
+}
+
