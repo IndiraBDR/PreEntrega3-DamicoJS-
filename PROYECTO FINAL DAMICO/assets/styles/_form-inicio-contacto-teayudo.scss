@@ -1,0 +1,188 @@
+@use '_commons' as e;
+
+
+/*FORMULARIOS DEL SITIO*/
+
+/*FORMULARIO DEL  LA PAG  DE INICIO*/
+
+#form__inicio {
+
+    grid-area: forminicio;
+    text-align: center;
+    padding-top: 20px;
+
+    
+      input {
+           background-color:map-get(e.$colores,"boton");
+           width: 80px;
+           display: block;
+           position: relative;
+           cursor: pointer;
+           text-align: center;
+           animation: saltarin 2s infinite;
+           margin: 0px auto;
+           border-radius: 10px;
+           border-color: #ea4c89;
+   
+   
+           @keyframes saltarin {
+   
+               0% {
+                   left: 0px;
+               }
+   
+               50% {
+                   left: 10px;
+               }
+   
+               100% {
+                   left: 0px;
+               }
+           }
+       }
+
+
+    
+
+       textarea {
+           text-align: center;
+           border-radius: 8px;
+           color: lightgray;
+           border: 2px solid #ea4c89;
+           opacity: 0.7;
+                   
+       }
+
+       .tex-form-inicio{
+
+           color:map-get(e.$colores,"titulo-pricipal");
+           font-size: 17px;
+
+           @media only screen and (min-width:1280px) {
+            
+              font-size: 22px;
+
+           }
+           
+   
+        } 
+
+        
+
+}
+
+
+
+/*FORMULARIO DEL  LA PAG  DE TE AYUDO*/
+
+#form__teayudo {
+
+    grid-area: formteayudo;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 90px;
+
+    label {
+
+        color:map-get(e.$colores,"texto");
+        font-weight: 500;
+    }
+    
+
+    select{
+
+        background-color: #ff8ba7;
+        border-radius: 8px;
+    }
+  
+
+    @media only screen and (min-width:1280px) {
+
+    
+            grid-area: formteayudo;
+            text-align: center;
+            padding-top: 70px;
+            padding-bottom: 90px;
+        
+
+    
+    }
+    
+ 
+  
+
+}
+
+
+
+/*FORMULARIO DEL  LA PAG  DE CONTACTO*/
+
+
+#form__contacto {
+    
+    grid-area: formcontacto;
+    margin-left: 25px;
+    margin-right: 25px;
+   
+
+    label {
+
+        color: #4fc4cf;
+        opacity: 0.8;
+        font-weight: bold;
+    }
+
+    .form__contacto__1{
+    
+        width: 80%;
+        margin-left: 45px ;
+    
+
+
+    }
+
+
+    @media only screen and (min-width:1280px) {
+
+    
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        
+    
+            .form__contacto__1{
+    
+                width: 50%;
+           
+        
+            }
+        
+            .form__contacto__2{
+        
+                width: 50%;
+                padding-left: 70px;
+                padding-right: 70px;
+                padding-top: 250px;
+                
+        
+        
+            }
+         
+    
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

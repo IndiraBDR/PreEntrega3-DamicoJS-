@@ -1,0 +1,40 @@
+
+
+$margin-general:0;
+$padding-general:0;
+
+/*MAP*/
+
+$colores:(
+
+
+ body:linear-gradient(to right, #ffc6c7 0%, #faeee7 60%, #ffc6c7 100%),
+ titulo-pricipal:#ea4c89,
+ texto:#594a4e,
+ box:#ffc6c7,
+ section:#ffc6c7,
+ separador:#ff8ba7,
+ texto-box: white,
+ fondo-section:#0d0c22,
+ boton:#ea4c89,
+ pie:#faeee7,
+
+
+);
+
+
+$font-body:'Source Sans Pro', sans-serif;
+$size-titulo-principal: 50px;
+$size-titulo-principal-mobile: 22px;
+$padding-top-titulo-principal: 20px;
+$padding-bottom-titulo-principal: 8px;
+//$ancho-box:1000px;
+$ancho-box:1000px;
+//$alto-box:300px;
+$alto-box:520px;
+//ancho-box-desktop:1100px;
+//$ancho-box-desktop:auto;
+
+$padding-botoom-separador:40px;
+$border-radius-separador:40px;
+

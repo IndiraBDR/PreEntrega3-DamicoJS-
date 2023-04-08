@@ -1,0 +1,10 @@
+
+
+
+[
+    { "id": 1, "nombre": "Asesoria inicial", "precio": "GRATUITA","imagen":"https://www.murcia.com/noticias/fotos/1117655200w2.jpg" },
+    { "id": 2, "nombre": "Asesoria personalizada", "precio": 2000, "imagen":"https://www.murcia.com/noticias/fotos/1117655200w2.jpg" },
+    { "id": 3, "nombre": "Asesoria para empresas", "precio": 4000,"imagen":"https://www.murcia.com/noticias/fotos/1117655200w2.jpg" }
+
+  
+]
